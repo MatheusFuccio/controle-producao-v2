@@ -1,0 +1,23 @@
+PCP Elevolt - Controle de Produção
+
+Arquivos para publicar no GitHub Pages:
+- index.html
+- styles.css
+- script.js
+- dados.csv
+- imagens/logo.png
+
+Como atualizar as OSs:
+1. Exporte ou edite o arquivo dados.csv.
+2. Mantenha o separador ponto e vírgula (;).
+3. Substitua o dados.csv no GitHub.
+4. Aguarde alguns instantes e atualize o site com Ctrl + F5.
+
+Colunas obrigatórias no CSV:
+OS;CLIENTE;PRODUTO;LANÇAMENTO;ENTREGA;STATUS
+
+Colunas opcionais que o sistema já aceita:
+RESPONSAVEL;SETOR;TECNICO;PRIORIDADE;VALOR
+
+Exemplo com opcionais:
+OS;CLIENTE;PRODUTO;LANÇAMENTO;ENTREGA;STATUS;RESPONSAVEL;PRIORIDADE;VALOR
